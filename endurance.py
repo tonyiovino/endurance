@@ -11,8 +11,11 @@ while consumo < 0:
 	consumo = float(c_str)
 
 tempo = quantita / consumo
+ore = int(tempo)
+minuti = int((tempo - ore) * 60)
+m = tempo - ore
+mint = int (m * 60)
+s =(m - mint) * 60
 
-print("Il tempo di volo in ore è ", tempo)
-print("Il tempo di volo in minuti è ", tempo*60)
-print("Il tempo di volo in minuti è ", tempo*60*60)
+print("Durata volo: ", ore, "ore", mint, "minuti", s, "secondi")
  
