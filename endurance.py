@@ -12,6 +12,7 @@ while consumo < 0:
 
 tempo = quantita / consumo
 
-print("Il tempo di volo è ", tempo)
-
+print("Il tempo di volo in ore è ", tempo)
+print("Il tempo di volo in minuti è ", tempo*60)
+print("Il tempo di volo in minuti è ", tempo*60*60)
  
