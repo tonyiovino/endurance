@@ -4,9 +4,9 @@ quantita = float(quantita_str)
 consumo_orario_str = input("Inserite il consumo orario: ")
 consumo_orario = float(consumo_orario_str)
 
-if quantita < 0:
+if quantita <= 0:
 	print("La quantità del carburante deve essere maggiore di 0.")
-elif consumo_orario < 0:
+elif consumo_orario <= 0:
 	print("Il consumo deve essere maggiore di 0.")
 else:
 	tempo = quantita / consumo_orario
